@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 10px;
+}
+
+.exercitiu {
+  border: 1px solid;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+.numeTrue {
+  background-color: blue;
+}
+
+.numeFalse {
+  background-color: black;
+}
+
+.numeTrue.click > .numeTrue,
+.numeTrue.click >.numeFalse{
+  background-color: blue;
+}
+
